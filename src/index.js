@@ -18,7 +18,7 @@ function inputHandler(evt) {
   }
   fetchCountries(textInput)
     .then(data => {
-      console.log(data);
+      // console.log(data);
       if (data.length > 10) {
         cleanMarkup(countryList);
         Notify.info(
